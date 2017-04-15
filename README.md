@@ -61,11 +61,11 @@
 
 * git
 
->跳转到you-get的git界面
+>查看本工具的git
 
 * update
 
->查看本工具的更新
+>跳转到you-get的git界面
 
 * more
 
