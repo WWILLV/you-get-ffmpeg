@@ -1,0 +1,1 @@
+@mshta VBScript:Execute("Set a=CreateObject(""WScript.Shell""):Set b=a.CreateShortcut(a.SpecialFolders(""Desktop"") & ""\you-get.lnk""):b.TargetPath=""%~dp0start.bat"":b.WorkingDirectory=""%~dp0"":b.Save:close")
