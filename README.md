@@ -67,6 +67,10 @@
 
 >跳转到you-get的git界面
 
+* edit
+
+>记事本编辑本工具文件，如：编辑more.bat为edit command\more.bat
+
 * more
 
 >查看更多命令
@@ -88,3 +92,6 @@ command目录下home.bat中的路径
 [ffmpeg](https://github.com/FFmpeg/FFmpeg#license)
 
 [you-get](https://github.com/soimort/you-get/blob/develop/LICENSE.txt)
+
+## TODO
+- [ ] GUI界面（这个其实没什么动力写）
