@@ -80,7 +80,6 @@
 
 修改方法：右键，编辑，保存即可
 
-ffmpeg文件夹快捷方式（可重新指定路径或直接删除）
 
 command目录下clean.bat和show.bat中download文件夹路径
 
