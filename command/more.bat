@@ -11,7 +11,7 @@ echo -support		   	 查看支持的解析
 echo -home				 返回默认下载路径
 echo -clean		 		 可清空download文件夹
 echo -show		 	 	 可在资源管理器中打开download文件夹
-echo -git		 		 打开you-get的Github项目页
+echo -git		 		 打开本工具的Github项目页
 echo -update				 查看you-get的更新
 echo -play [url]			 可直接调用ffplay在线播放(you-get -p ffplay [url])
 echo -xmp [url]			 若安装迅雷影音可调用迅雷影音在线播放(you-get -p [路径]XMP.exe [url])

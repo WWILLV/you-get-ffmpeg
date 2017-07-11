@@ -1,7 +1,6 @@
 @title you-get
 @cls
 @echo off
-@mode con: cols=128 lines=30
 @SET PATH=%CD%/command;%PATH%
 @SET app=%CD%
 @PROMPT [%computername%^@%username%]$P$_$G 
