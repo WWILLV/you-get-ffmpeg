@@ -1,5 +1,11 @@
 # you-get&ffmpeg
-> 本工具用于Windows下，结合you-get和FFMPEG组成的工具。
+本工具用于Windows下，结合you-get和FFMPEG组成的工具。
+
+安利[BiliBiliPlayerInfo](https://github.com/WWILLV/BiliBiliPlayerInfo)，一个采集一些BiliBili视频播放页的数据的类库+工具（可采集aid，cid等数据并生成H5播放页）
+
+
+[TOC]
+
 
 ## you-get和FFMPEG
 [you-get(github)](https://github.com/soimort/you-get) [you-get.org](https://you-get.org/)
@@ -7,6 +13,12 @@
 
 [FFMPEG(github)](https://github.com/FFmpeg/FFmpeg) [ffmpeg.org](http://ffmpeg.org/)
 >FFmpeg is a collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata.
+
+安利一个不错的cmd代替工具，[cmder](http://cmder.net/)
+## 下载
+辣鸡Github，下载bat丢换行。由于我本人比较懒，并不想在release分版本号，这里就提供度娘盘了。
+
+[百度云 密码：jmpc](http://pan.baidu.com/s/1pLyozaF)
 
 ## 使用方法
 * you-get、ffmpeg、ffplay、ffprobe
@@ -59,6 +71,14 @@
 
 >如果电脑上安装了迅雷影音，调用迅雷影音播放
 
+* storm
+
+>如果电脑上安装了暴风影音，调用暴风影音播放
+
+* potplayer
+
+>如果电脑上安装了potplayer，调用potplayer播放
+
 * git
 
 >查看本工具的git
@@ -77,15 +97,25 @@
 
 ## 注意
 ***更换设备需要修改的文件***
+修改方法：右键.bat程序，编辑，保存即可
 
-修改方法：右键，编辑，保存即可
-
-
+***以下为一些主要命令的修改（非必须改动或使用，但建议修改）***
 command目录下clean.bat和show.bat中download文件夹路径
 
 command目录下home.bat中的路径
 
-//可以使用@set download=..\download来代替，但这样一旦跨路径就可能引起不可预料的后果
+***以下为调用you-get -p的播放器快速调用的修改（非必须改动或使用）***
+command目录下xmp.bat中迅雷影音的XMP.exe(如果存在)的路径
+
+command目录下storm.bat中暴风影音的StormPlayer.exe(如果存在)的路径
+
+command目录下potplayer.bat中potplayer的PotPlayerMini64.exe(如果存在)的路径
+
+（注意更换盘符）
+
+（也可以使用Chrome、Firefox等浏览器播放，但浏览器支持在线播放的文件类型太少，故未添加）
+
+**可以使用@set download=..\download来代替，但这样一旦跨路径就可能引起不可预料的后果
 
 ## LICENSE
 [ffmpeg](https://github.com/FFmpeg/FFmpeg#license)

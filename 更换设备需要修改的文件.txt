@@ -1,5 +1,14 @@
-修改方法：右键，编辑，保存即可
+修改方法：右键.bat程序，编辑，保存即可
+
+## 以下为一些主要命令的修改（非必须改动或使用，但建议修改）
 command目录下clean.bat和show.bat中download文件夹路径
 command目录下home.bat中的路径
+
+## 以下为调用you-get -p的播放器快速调用的修改（非必须改动或使用）
 command目录下xmp.bat中迅雷影音的XMP.exe(如果存在)的路径
+command目录下storm.bat中暴风影音的StormPlayer.exe(如果存在)的路径
+command目录下potplayer.bat中potplayer的PotPlayerMini64.exe(如果存在)的路径
+（注意更换盘符）
+（也可以使用Chrome、Firefox等浏览器播放，但浏览器支持在线播放的文件类型太少，故未添加）
+
 **可以使用@set download=..\download来代替，但这样一旦跨路径就可能引起不可预料的后果
