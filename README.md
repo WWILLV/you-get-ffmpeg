@@ -18,7 +18,7 @@
 ## 下载
 辣鸡Github，下载bat丢换行。由于我本人比较懒，并不想在release分版本号，这里就提供度娘盘了。
 
-[百度云 密码：jmpc](http://pan.baidu.com/s/1pLyozaF)
+[百度云](http://pan.baidu.com/s/1miigZos)
 
 ## 使用方法
 * you-get、ffmpeg、ffplay、ffprobe
