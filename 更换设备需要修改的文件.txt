@@ -1,7 +1,7 @@
 修改方法：右键.bat程序，编辑，保存即可
 
 ## 以下为一些主要命令的修改（非必须改动或使用，但建议修改）
-command目录下clean.bat和show.bat中download文件夹路径
+command目录下clean.bat中download文件夹路径
 command目录下home.bat中的路径
 
 ## 以下为调用you-get -p的播放器快速调用的修改（非必须改动或使用）

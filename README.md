@@ -20,6 +20,8 @@
 
 [百度云](http://pan.baidu.com/s/1miigZos)
 
+** 我的you-get.exe来自官方项目exe，release出更新exe我会尽快更新，如果等不及可以删除掉you-get.exe，使用pip3 install you-get安装或pip3 install --upgrade you-get更新you-get（均需要Python3环境） **
+
 ## 使用方法
 * you-get、ffmpeg、ffplay、ffprobe
 
@@ -53,7 +55,7 @@
 
 * show
 
->在资源管理器中打开download文件夹
+>在资源管理器中打开当前文件夹
 
 * support
 
@@ -65,7 +67,7 @@
 
 * ls
 
->列目录
+>列目录（来自[git](https://github.com/git/git)）
 
 * xmp
 
@@ -91,20 +93,28 @@
 
 >记事本编辑本工具文件，如：编辑more.bat为edit command\more.bat
 
+* vip
+
+>调用VIP视频解析（接口更新全看缘分，我如果没有看VIP视频的需求可能就不更新了）
+>根据you-get项目的声明，you-get不解析VIP视频（即使加载cookie）
+
 * more
 
 >查看更多命令
 
 ## 注意
 ***更换设备需要修改的文件***
+
 修改方法：右键.bat程序，编辑，保存即可
 
 ***以下为一些主要命令的修改（非必须改动或使用，但建议修改）***
-command目录下clean.bat和show.bat中download文件夹路径
+
+command目录下clean.bat中download文件夹路径
 
 command目录下home.bat中的路径
 
 ***以下为调用you-get -p的播放器快速调用的修改（非必须改动或使用）***
+
 command目录下xmp.bat中迅雷影音的XMP.exe(如果存在)的路径
 
 command目录下storm.bat中暴风影音的StormPlayer.exe(如果存在)的路径

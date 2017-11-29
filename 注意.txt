@@ -1,0 +1,7 @@
+咸鱼作者考研去了，这个工具的更新可能要断一段时间了
+
+你们可以自己手动更新
+
+命令update可以直接打开you-get的release，你们看最新的更新里有没有win32.exe，如果有，下载下来替换掉you-get.exe就可以了
+
+如果你不用win32，用Python3的原版的话，直接pip3 install --upgrade you-get就可以了
