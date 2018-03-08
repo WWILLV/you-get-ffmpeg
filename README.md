@@ -1,18 +1,18 @@
-# you-get&ffmpeg
-本工具用于Windows下，结合you-get和FFMPEG组成的工具。
+# you-get&ffmpeg（也许现在需要加一个youtube-dl了）
+本工具用于Windows下，结合you-get、youtube-dl和FFMPEG组成的工具。
 
 安利[BiliBiliPlayerInfo](https://github.com/WWILLV/BiliBiliPlayerInfo)，一个采集一些BiliBili视频播放页的数据的类库+工具（可采集aid，cid等数据并生成H5播放页）
 
 
-[TOC]
-
-
-## you-get和FFMPEG
+## you-get、youtube-dl和FFMPEG
 [you-get(github)](https://github.com/soimort/you-get) [you-get.org](https://you-get.org/)
 >You-Get is a tiny command-line utility to download media contents (videos, audios, images) from the Web, in case there is no other handy way to do it.
 
 [FFMPEG(github)](https://github.com/FFmpeg/FFmpeg) [ffmpeg.org](http://ffmpeg.org/)
 >FFmpeg is a collection of libraries and tools to process multimedia content such as audio, video, subtitles and related metadata.
+
+[youtube-dl(github)](https://github.com/rg3/youtube-dl) [rg3.github.io/youtube-dl/](http://rg3.github.io/youtube-dl/)
+>Command-line program to download videos from YouTube.com and other video sites.
 
 安利一个不错的cmd代替工具，[cmder](http://cmder.net/)
 ## 下载
@@ -20,12 +20,12 @@
 
 [百度云](http://pan.baidu.com/s/1miigZos)
 
-** 我的you-get.exe来自官方项目exe，release出更新exe我会尽快更新，如果等不及可以删除掉you-get.exe，使用pip3 install you-get安装或pip3 install --upgrade you-get更新you-get（均需要Python3环境） **
+** 我的you-get.exe和youtube-dl.exe来自官方项目exe，release出更新exe我会尽快更新，如果等不及可以删除掉you-get.exe和youtube-dl.exe，使用pip3 install you-get安装或pip3 install --upgrade you-get更新you-get（均需要Python3环境），youtube-dl可以用-U参数 **
 
 ## 使用方法
-* you-get、ffmpeg、ffplay、ffprobe
+* you-get、ffmpeg、ffplay、ffprobe、youtube-dl
 
->这些文件来自于you-get和FFMPEG项目，具体使用方法可以使用-h参数查看
+>这些文件来自于you-get、youtube-dl和FFMPEG项目，具体使用方法可以使用-h参数（或--help）查看
 
 >常用命令：
 
@@ -40,6 +40,8 @@
 >"ffplay 媒体地址"ffplay播放文件（播放中快捷键这里不介绍了，具体可以看[这里](http://www.tuicool.com/articles/jiyu6b)）
 
 >"ffprobe 媒体地址"获取媒体的详细信息
+
+>youtube-dl太强大了，参数太多就不列了，直接后面加地址下载就行了
 
 * clean
 
@@ -131,6 +133,8 @@ command目录下potplayer.bat中potplayer的PotPlayerMini64.exe(如果存在)的
 [ffmpeg](https://github.com/FFmpeg/FFmpeg#license)
 
 [you-get](https://github.com/soimort/you-get/blob/develop/LICENSE.txt)
+
+[youtube-dl](https://github.com/rg3/youtube-dl/blob/master/LICENSE)
 
 ## TODO
 - [ ] GUI界面（这个其实没什么动力写）

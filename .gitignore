@@ -1,3 +1,5 @@
 /download/*
 /command/saikou.bat
+/command/deskop.bat
+/command/bd.bat
 !/download/README.md

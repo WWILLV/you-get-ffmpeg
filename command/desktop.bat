@@ -1,0 +1,2 @@
+@C:
+@cd %desktop%
